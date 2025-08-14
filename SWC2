@@ -1,0 +1,45 @@
+SWC2#show run
+Building configuration...
+! Last configuration change at 14:44:37 UTC Thu Aug 14 2025
+!
+hostname SWC2
+!
+interface GigabitEthernet0/0
+ description Trunk do RC2
+ switchport trunk encapsulation dot1q
+ switchport mode trunk
+ negotiation auto
+!
+interface GigabitEthernet0/1
+ description Trunk do RC1
+ switchport trunk encapsulation dot1q
+ switchport mode trunk
+ negotiation auto
+!
+interface GigabitEthernet0/2
+ description Port dla DESKTOP-2
+ switchport access vlan 30
+ switchport mode access
+ negotiation auto
+ spanning-tree portfast edge
+!
+interface GigabitEthernet0/3
+ description Port dla DESKTOP-3
+ switchport access vlan 40
+ switchport mode access
+ negotiation auto
+ spanning-tree portfast edge
+!
+interface GigabitEthernet1/0
+ negotiation auto
+!
+interface GigabitEthernet1/1
+ negotiation auto
+!
+interface GigabitEthernet1/2
+ negotiation auto
+!
+interface GigabitEthernet1/3
+ negotiation auto
+!
+end
