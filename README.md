@@ -1,4 +1,4 @@
-<img width="1493" height="672" alt="image" src="https://github.com/user-attachments/assets/607bda8f-a467-4770-9c54-911310e4fc14" />
+<img width="1036" height="680" alt="image" src="https://github.com/user-attachments/assets/e90ca759-9f42-45a9-a672-e16fb8ed7218" />
 
 There is a variation of configuration of classic access - distribution - core layer.
 Configured features:
